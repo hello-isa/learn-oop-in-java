@@ -17,7 +17,7 @@ Notes:
 3. The code that is run in is inside a method (or a function) called `main` which is declared as `public static void main(String[] args)`.
     There could only be one main method just like C program.
 
-4. In terminal run the following:
+4. In the terminal, run the following:
     javac Main.java
     java Main
 
