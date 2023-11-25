@@ -1,4 +1,6 @@
 // 3
+
+// Returns the larger number between x and y
 public class LargerNumber {
     public static int findLarger(int x, int y){
         if (x > y){
@@ -8,17 +10,8 @@ public class LargerNumber {
         }
     }
 
-    public static int findSmaller(int a, int b){
-        if(a < b){
-            return a;
-        }else {
-            return b;
-        }
-    }
-
     public static void main(String[] args){
         System.out.println(findLarger(-5, 10));
-        System.out.println(findSmaller(-2, -4));
     }
 }
 
