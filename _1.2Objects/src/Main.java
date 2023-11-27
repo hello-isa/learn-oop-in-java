@@ -27,10 +27,10 @@ public class Main {
         // Array of objects
         System.out.println("Array of objects:");
         // `DogConstructor[] dogArray` and `DogConstructor dogArray[]` works the same
-        DogConstructor[] dogArray = new DogConstructor[3]; // 3 is the size of the array
-        dogArray[0] = new DogConstructor(25);
-        dogArray[1] = new DogConstructor(4);
-        dogArray[2] = new DogConstructor(38);
+        DogConstructor[] dogArray = new DogConstructor[3];
+        dogArray[0] = new DogConstructor(4);
+        dogArray[1] = new DogConstructor(22);
+        dogArray[2] = new DogConstructor(45);
         int n;
         for (n = 0; n < 3; n++){
             dogArray[n].makeNoise();
@@ -51,7 +51,9 @@ Notes:
 
 4. Static method vs. Non-static method
     e.g. `DogStaticMethod` vs `DogNonStaticMethod`
-    Check the methods for each class, the non-static method does not use the keyword `static`
+    Static method uses the keyword `static` while non-static method does not
+    Static methods are invoked using the class name, DogStaticMethod.makeNoise();
+    Non-static methods are invoked using an instance name, dogOne.makeNoise();
 
 5. Class that uses non-static methods can be instantiated multiple times.
 
